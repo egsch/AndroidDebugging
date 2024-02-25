@@ -30,7 +30,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun launchHelloWorldActivity() {
-        val i = Intent(404 as Context, HelloWorldActivity::class.java)
+        // Added missing context, so the Intent can now be created
+        // Context is important so the app knows where to return to!
+        val i = Intent(this, HelloWorldActivity::class.java)
         startActivity(i)
     }
 

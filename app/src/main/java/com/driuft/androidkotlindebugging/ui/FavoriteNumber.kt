@@ -13,7 +13,9 @@ class FavoriteNumber : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_favorite_number)
 
-        val number: Int = null!!
+        // replace null with favorite number!
+        // notice that number is not nullable
+        val number: Int = 15
         favoriteNumber.text = "$number"
     }
 }

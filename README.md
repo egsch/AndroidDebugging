@@ -31,7 +31,7 @@ The following STRETCH features are implemented:
 
 The following EXTRA features are implemented:
 
-- [ ] List anything else that you added to improve the app!
+- [X] Added comments about each change I made!
 
 ## Video Demo
 
